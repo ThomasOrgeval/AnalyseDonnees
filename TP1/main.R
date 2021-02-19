@@ -3,7 +3,7 @@
 # Created by: orgev
 # Created on: 03/02/2021
 
-tabac <- read.table("tabac.txt", header = T, row.names = 1)
+tabac <- read.table("Data/tabac.txt", header = T, row.names = 1)
 tabac # permet d’afficher le tableau
 
 tabac$Vente # permet de r ́ecup ́erer un vecteur avec toutes les valeursde la variable Ventes

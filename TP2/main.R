@@ -7,7 +7,7 @@
 library(FactoMineR)
 
 # Chargement des données
-foot <- read.csv2("foot_pca.csv", row.names = 1)
+foot <- read.csv2("Data/foot_pca.csv", row.names = 1)
 # Les données que l'on va étudier concernent les équipes de football des 5 championnats majeurs européens:
 # Angleterre, France, Espagne, Allemagne, Italie
 # Pour chaque équipe de ces championnats, on a recolté des informations à propos de 15 variables (saison 2018/2019) :

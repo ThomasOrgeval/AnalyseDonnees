@@ -3,7 +3,7 @@
 # Created by: orgev
 # Created on: 03/02/2021
 
-mat <- read.table("materiau.txt", header = T)
+mat <- read.table("Data/materiau.txt", header = T)
 mat
 
 reg1 <- lm(Y ~ X1, data = mat)
