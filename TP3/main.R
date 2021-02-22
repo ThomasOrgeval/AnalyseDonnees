@@ -36,5 +36,5 @@ colnames(tel)[10] <- "Classe kmnorm"
 
 catdes(tel[,c(1:7,10)], num.var = 8)
 
-tel_acp2 <- PCA(tel, quali.sup = 10) # Je crois mes ACP elles marchent pas
+tel_acp2 <- PCA(tel, quali.sup = 10) # Je crois mes ACP ne marchent pas
 tel_acp2$eig
